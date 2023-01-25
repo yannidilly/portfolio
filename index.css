@@ -38,7 +38,7 @@ p, a, button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0.2rem 0.5rem;
+  margin: 0.2rem 0.8rem;
 }
 
 .intro-section h1 {
@@ -57,4 +57,19 @@ p, a, button {
 
 .intro-section img {
   max-width: 45vw;
+}
+
+.icons-text-section {
+  background-image: linear-gradient(#168bd4, #179df0);
+  padding: 1rem 0.8rem;
+}
+
+.icons-text-section h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.icons-text-section .icon-text-div img {
+  width: 3.8rem;
 }
