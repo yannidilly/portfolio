@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Merriweather+Sans&family=Proza+Libre&display=swap');
 
 :root {
-  --dark-blue: #071432;
-  --light-blue: #0f88be;
+  --dark-blue: #02224e;
+  --light-blue: #179df0;
+}
+
+body {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
 }
 
 h1 {
