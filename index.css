@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Merriweather+Sans&family=Proza+Libre&display=swap');
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Hind', sans-serif;
+}
+
+p, a, button {
+  font-family: 'Proza Libre', sans-serif;
+}
