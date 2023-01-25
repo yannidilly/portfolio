@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Merriweather+Sans&family=Proza+Libre&display=swap');
 
+:root {
+  --dark-blue: #071432;
+  --light-blue: #0f88be;
+}
+
 h1 {
   font-family: 'Merriweather Sans', sans-serif;
 }
