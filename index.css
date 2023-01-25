@@ -8,6 +8,7 @@
 body {
   background-color: var(--light-blue);
   color: var(--dark-blue);
+  margin: 0;
 }
 
 h1 {
@@ -20,4 +21,40 @@ h2, h3, h4, h5, h6 {
 
 p, a, button {
   font-family: 'Proza Libre', sans-serif;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-section .img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.intro-section .text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.2rem 0.5rem;
+}
+
+.intro-section h1 {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.intro-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.intro-section p {
+  margin: 0;
+}
+
+.intro-section img {
+  max-width: 45vw;
 }
