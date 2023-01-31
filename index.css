@@ -60,10 +60,10 @@ p, a, button {
 }
 
 .icons-text-section {
-  background-image: linear-gradient(#168bd4, #179df0);
+  background-image: linear-gradient(#168bd4, #179df0, #168bd45d);
 }
 
-.icons-text-section h2 {
+.icons-text-section h2, .all-projects-section h2 {
   text-align: center;
   font-size: 1.4rem;
   margin: 0 0.8rem;
