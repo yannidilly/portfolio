@@ -131,16 +131,16 @@ p, a, button {
   0% {
     margin-left: 0;
   }
-  25% {
+  20% {
     margin-left: 0;
   }
-  35% {
+  30% {
     margin-left: calc(-100vw - 1rem);
   }
-  60% {
+  55% {
     margin-left: calc(-100vw - 1rem);
   }
-  70% {
+  65% {
     margin-left: calc(-200vw - 2rem);
   }
   90% {
