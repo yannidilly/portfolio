@@ -75,13 +75,15 @@ p, a, button {
 }
 
 .images-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-flex;
+  width: calc(100vw);
+  overflow: scroll;
 }
 
 .images-div img {
-  width: 100vw;
+  border: 2px solid var(--dark-blue);
+  margin: 0.8rem;
+  width: calc(100vw - 1.6rem - 30px);
 }
 
 .ecommerce {
