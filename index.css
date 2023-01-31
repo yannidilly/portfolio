@@ -67,6 +67,7 @@ p, a, button {
   text-align: center;
   font-size: 1.4rem;
   margin: 0;
+  padding-top: 1rem;
 }
 
 .icons-text-section .icon-text-div img {
@@ -111,11 +112,32 @@ p, a, button {
   text-decoration: none;
 }
 
+.icons-text-section {
+  overflow-x: hidden;
+}
+
 .all-icons-div {
   display: inline-flex;
+  animation: animacao 30s infinite;
+  /* margin-left: calc(-100vw - 1rem); */
 }
 
 .icon-text-div {
   padding: 1rem 1rem;
   width: calc(100vw - 1rem);
+}
+
+@keyframes animacao {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: calc(-100vw - 1rem);
+  }
+  60% {
+    margin-left: calc(-200vw - 2rem);
+  }
+  100% {
+    margin-left: calc(-300vw - 3rem);
+  }
 }
