@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Merriweather+Sans&family=Proza+Libre&display=swap');
+
+:root {
+  --dark-blue: #02224e;
+  --light-blue: #179df0;
+}
+
+body {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Hind', sans-serif;
+}
+
+p, a, button {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-section .img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.intro-section .text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.2rem 0.8rem;
+}
+
+.intro-section h1 {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.intro-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.intro-section p {
+  margin: 0;
+}
+
+.intro-section img {
+  max-width: 45vw;
+}
+
+.icons-text-section {
+  background-image: linear-gradient(#168bd4, #179df0);
+  padding: 1rem 0.8rem;
+}
+
+.icons-text-section h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.icons-text-section .icon-text-div img {
+  width: 3.8rem;
+}
+
+.images-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-div img {
+  width: 100vw;
+}
+
+.ecommerce {
+  display: none;
+}
+
+.project-text-div, .about, .contact {
+  padding: 1rem 0.8rem;
+}
+
+.about h3 {
+  margin: 0;
+}
+
+.contact h3 {
+  margin: 0;
+}
+
+.contact-link-div {
+  margin: 2rem 0 1.2rem 0;
+}
+
+.contact-link {
+  color: white;
+  background-color: var(--dark-blue);
+  padding: 0.7rem 0.8rem;
+  list-style: none;
+  text-decoration: none;
+}
