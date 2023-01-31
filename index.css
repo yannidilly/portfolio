@@ -66,7 +66,7 @@ p, a, button {
 .icons-text-section h2 {
   text-align: center;
   font-size: 1.4rem;
-  margin: 0;
+  margin: 0 0.8rem;
   padding-top: 1rem;
 }
 
@@ -118,7 +118,7 @@ p, a, button {
 
 .all-icons-div {
   display: inline-flex;
-  animation: animacao 30s infinite;
+  animation: animacao 20s infinite;
   /* margin-left: calc(-100vw - 1rem); */
 }
 
@@ -131,10 +131,19 @@ p, a, button {
   0% {
     margin-left: 0;
   }
-  30% {
+  25% {
+    margin-left: 0;
+  }
+  35% {
     margin-left: calc(-100vw - 1rem);
   }
   60% {
+    margin-left: calc(-100vw - 1rem);
+  }
+  70% {
+    margin-left: calc(-200vw - 2rem);
+  }
+  90% {
     margin-left: calc(-200vw - 2rem);
   }
   100% {
