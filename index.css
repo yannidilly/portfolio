@@ -84,6 +84,10 @@ p, a, button {
   width: 100vw;
 }
 
+.text-div {
+  padding: 1rem 0.8rem;
+}
+
 .ecommerce {
   display: none;
 }
