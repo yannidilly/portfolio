@@ -112,12 +112,10 @@ p, a, button {
 }
 
 .all-icons-div {
-  display:inline-flex;
-  flex-direction: row;
+  display: inline-flex;
 }
 
 .icon-text-div {
   padding: 1rem 1rem;
-  position: relative;
   width: calc(100vw - 1rem);
 }
