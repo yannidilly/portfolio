@@ -83,3 +83,7 @@ p, a, button {
 .images-div img {
   width: 100vw;
 }
+
+.ecommerce {
+  display: none;
+}
