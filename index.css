@@ -73,3 +73,13 @@ p, a, button {
 .icons-text-section .icon-text-div img {
   width: 3.8rem;
 }
+
+.images-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-div img {
+  width: 100vw;
+}
