@@ -99,3 +99,15 @@ p, a, button {
 .contact h3 {
   margin: 0;
 }
+
+.contact-link-div {
+  margin: 2rem 0 1.2rem 0;
+}
+
+.contact-link {
+  color: white;
+  background-color: var(--dark-blue);
+  padding: 0.7rem 0.8rem;
+  list-style: none;
+  text-decoration: none;
+}
