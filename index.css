@@ -121,7 +121,6 @@ p, a, button {
 .all-icons-div {
   display: inline-flex;
   animation: animacao 20s infinite;
-  /* margin-left: calc(-100vw - 1rem); */
 }
 
 .icon-text-div {
@@ -150,5 +149,35 @@ p, a, button {
   }
   100% {
     margin-left: calc(-300vw - 3rem);
+  }
+}
+
+@media (min-width: 780px) {
+  .intro-section {
+    margin: 3rem 10rem 3rem 10rem;
+  }
+
+  .intro-section .img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .intro-section .text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.2rem 0.8rem;
+  }
+
+  .intro-section img {
+    max-width: 20vw;
+    border-bottom: 15px solid var(--dark-blue);
+    border-right: 12px solid var(--dark-blue);
+  }
+
+  .all-icons-div {
+    display: inline-flex;
+    animation: none;
   }
 }
