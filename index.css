@@ -184,4 +184,18 @@ p, a, button {
   .last-icon {
     display: none;
   }
+
+  .images-div {
+    display: inline-flex;
+    margin-left: 0.8rem;
+    width: calc(100vw - 3.35rem);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: white black;
+  }
+
+  .images-div img {
+    margin: 0;
+    margin-right: 0.8rem;
+  }
 }
