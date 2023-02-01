@@ -95,7 +95,7 @@ p, a, button {
 }
 
 .about {
-  background-image: linear-gradient(var(--light-blue), var(--light-blue), var(--light-blue), #1893e0);
+  background-image: linear-gradient(var(--light-blue), #1893e0);
 }
 
 .about h3 {
