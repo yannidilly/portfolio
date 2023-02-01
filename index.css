@@ -94,6 +94,10 @@ p, a, button {
   padding: 1rem 0.8rem;
 }
 
+.about {
+  background-image: linear-gradient(var(--light-blue), var(--light-blue), var(--light-blue), #1893e0);
+}
+
 .about h3 {
   margin: 0;
 }
