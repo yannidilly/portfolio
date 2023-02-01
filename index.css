@@ -177,7 +177,11 @@ p, a, button {
   }
 
   .all-icons-div {
-    display: inline-flex;
+    display: flex;
     animation: none;
+  }
+
+  .last-icon {
+    display: none;
   }
 }
